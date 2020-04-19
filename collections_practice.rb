@@ -40,6 +40,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject(0){|num, add| num + add}
-  return array
+  count = 0
+  array.each do |num, x|
+    count = num + x
+  end
+  return count
 end
