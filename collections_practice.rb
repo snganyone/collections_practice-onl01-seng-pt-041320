@@ -31,5 +31,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find{|i| i.include?("a")}
+  #array.find{|i| i.include?("a")}
+  matches = []
+  array.each do |i|
+    matches << i if i.include?("a")
+  end
+  return matches
 end
