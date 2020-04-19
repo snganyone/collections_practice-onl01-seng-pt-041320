@@ -44,5 +44,5 @@ end
 
 def add_s(array)
   #array.each {|i| i[2] = "$"}
-  array.each {|i| i.concat("s")}
+  array.each {|i| if !i[1] i.concat("s")}
 end
