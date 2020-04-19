@@ -24,3 +24,7 @@ def reverse_array(array)
   copy = array.reverse
   return copy
 end
+
+def kesha_maker(array)
+  array[2] = "$"
+end
