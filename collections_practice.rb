@@ -41,6 +41,6 @@ end
 
 def sum_array(array)
   count = 0
-  array.each{|add| sum += count}
+  array.each{|add| add += count}
   return array
 end
