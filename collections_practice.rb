@@ -29,3 +29,6 @@ def kesha_maker(array)
   array.each {|i| i[2] = "$"}
   return array
 end
+
+def find_a(array)
+end
