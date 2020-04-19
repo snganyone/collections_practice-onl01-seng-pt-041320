@@ -10,7 +10,7 @@ def sort_array_desc(array)
   end
 end
 
-def sort_char_count(array)
+def sort_array_char_count(array)
   char_array << array.sort {|l,r| l.length <=> r.length}
   return char_array
 end
