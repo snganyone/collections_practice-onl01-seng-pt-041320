@@ -31,7 +31,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  #array.find{|i| i.include?("a")}
   matches = []
   array.each do |i|
     matches << i if i[0] == "a"
@@ -44,4 +43,5 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.each {|i| i = "s"}
 end
