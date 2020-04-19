@@ -16,4 +16,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  char_array = array.sort{|l, r| l[0] <=> r[1]}
+  return char_array
 end
